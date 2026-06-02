@@ -4,27 +4,7 @@
 medicamentos = {} #codigo: nombre/disponible/cantidad mínima/Unidad
 instrumentos = {} #codigo: nombre/disponible/cantidad mínima/unidad/total
 dispositivos = {} #codigo: nombre/disponible/cantidad mínima/unidad/total
-medicamentos = {
-    "MED001": ["Paracetamol", 10, 20, "tabletas"],
-    "MED002": ["Ibuprofeno", 80, 10, "cápsulas"],
-    "MED003": ["Amoxicilina", 40, 15, "frascos"]
-}
-# codigo : [nombre, disponible, cantidad mínima, unidad]
 
-
-instrumentos = {
-    "INS001": ["Bisturí", 9, 8, "unidades"],
-    "INS002": ["Pinza quirúrgica", 16, 15, "unidades",20],
-    "INS003": ["Termómetro digital", 4, 5, "unidades",40]
-}
-# codigo : [nombre, disponible, cantidad mínima, unidad]
-
-
-dispositivos = {
-    "DIS001": ["Monitor cardíaco", 5, 9, "equipos",30],
-    "DIS002": ["Electrocardiógrafo", 7, 8, "equipos",12],
-    "DIS003": ["Oxímetro", 12, 20, "unidades",24]
-}
 import json
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
